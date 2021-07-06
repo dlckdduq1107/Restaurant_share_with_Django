@@ -3,5 +3,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def sendEmail(request):
-    return HttpResponse("sendEmail")
-    
+    return HttpResponse("sendEmail") # 화면에 sendEmail출력

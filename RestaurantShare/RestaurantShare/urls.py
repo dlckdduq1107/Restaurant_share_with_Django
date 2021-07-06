@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('shareRes.urls')),
-    path('sendEmail/', include('sendEmail.urls')),
+    path('', include('shareRes.urls')), # 메인 화면을 shareRes의 url로 설정
+    path('sendEmail/', include('sendEmail.urls')), # 이메일 공유를 위한 url 설정
     path('admin/', admin.site.urls),
 ]
